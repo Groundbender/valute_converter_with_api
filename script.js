@@ -51,6 +51,7 @@ convertBtn.addEventListener("click", function () {
 });
 
 select.addEventListener("change", function () {
+  output.value = 0;
   inputValute.classList.remove("from-rub");
   document.querySelector(".val-label").textContent =
     select.options[select.selectedIndex].textContent;
@@ -58,7 +59,7 @@ select.addEventListener("change", function () {
   document.querySelector(".rub-label").textContent = "RUB";
   const result = convert(getInput());
 
-  render(result);
+  // render(result);
 });
 
 document.querySelector(".change").addEventListener("click", () => {
