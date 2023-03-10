@@ -1,0 +1,19 @@
+.input-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  gap: 10px;
+}
+
+.change {
+  background-color: #fff;
+  border: none;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
